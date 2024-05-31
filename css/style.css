@@ -16,8 +16,8 @@ body{
 }
 
 .content{
-    background-color: #fff;
-    width: 100px;
+    background-color:#fff;
+    width: 200vh;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -35,11 +35,13 @@ body{
 }
 
 .active-menu{
-    background-color: #ccddff;
+    background-color: #13dcc1;
 }
 
 .menu-icon{
     height: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
 .menu-text{
