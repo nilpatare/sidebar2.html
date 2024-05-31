@@ -29,6 +29,13 @@ body{
     display: flex;
     align-items: center;
     padding: 5px 20px;
+    cursor: pointer;
+    text-decoration:none;
+    color: black;
+}
+
+.active-menu{
+    background-color: #ccddff;
 }
 
 .menu-icon{
