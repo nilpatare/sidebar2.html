@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:#fff;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    background-color: #333;
+    width: 200px;
+}
+
+.content{
+    background-color: #fff;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-items{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.menu-icon{
+    height: 20px;
+}
+
+.menu-text{
+    margin-left: 5px;
+}
+
+
+/* Small Devices */
+@media screen and (max-width: 600px){
+.sidebar{
+    display: none;
+}
+}
+/* Normal Devices */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+/* Tablets Devices */
+@media screen and (min-width: 769px) and (max-width: px) 992
+{
+    
+}
+
+/* Large Devices */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    
+}
